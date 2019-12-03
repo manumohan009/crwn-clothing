@@ -23,7 +23,6 @@ class SignIn extends React.Component {
         }catch(error){
             console.log(error)
         }
-
     }
 
     handleChange = (event)=>{
@@ -45,7 +44,7 @@ class SignIn extends React.Component {
                         label='Email'
                         required/>
                     <FormInput 
-                        name='password' 
+                        name='password'
                         type='password' 
                         value={this.state.password} 
                         handleChange={this.handleChange}
