@@ -15,12 +15,6 @@ import { selectCurrentUser } from './redux/user/user.selectors';
 
 
 class App extends React.Component{
-  // constructor(){
-  //   super();
-  //   this.state = {
-  //     currentUser: null
-  //   }
-  // }
   unsubscribeFromAuth = null;
   componentDidMount(){
     const { setCurrentUser } = this.props;
@@ -37,9 +31,6 @@ class App extends React.Component{
       } else{
         setCurrentUser(userAuth)
       }
-      // createUserProfileDocument(user);
-      // this.setState({currentUser: user});
-      // console.log(user);
     })
   }
   componentWillUnmount() {
