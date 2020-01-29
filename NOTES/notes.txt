@@ -1,0 +1,41 @@
+Section-2: React Key Concepts
+    React Concepts
+    The Birth of React.js
+        - jquery allowed developers to interact with the dom; using jquery apis
+        - backbone.js allowed us to organize js files
+        - Single Page Application
+        - 2010 AngularJS using mvc architecture
+        - in 2013 facebook came up with React.js
+        - in 2014 google decided to do a complete rewrite of AngularJs and called it AngularJS
+    Declarative vs Imperative
+        - React is a declarative paradigm
+    Component Architecture
+    One way Data Flow
+        - React library is simply a function
+            function React(state, components){}
+        - It creates a Virtual DOM; a javascript version of the dom
+        - as soon as the state changes, react reacts to the change by combining the new state and component and update the dom
+        - data can only move down; from parent to child
+    UI Library
+    How to be a great React Developer
+        - Decide on components
+        - Decide the state and where it lives
+        - What changes when state changes
+
+Section-3: React Basics
+    Section Overview
+        npx create-react-app my-app - allows us to create react app without installing 'create-react-app' locally
+    Environment Setup for Mac
+    Environment Setup for Windows
+    npm vs yarn
+    vs code settings
+    create react App
+    
+
+Section-4: Master Project: Setting Up E-commerce
+    
+
+
+
+        
+
