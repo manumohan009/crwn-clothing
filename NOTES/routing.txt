@@ -1,0 +1,30 @@
+react-routing-dom
+
+BrowserRouter, Switch, Route
+
+3 props passed into a component
+    - history
+        - push
+    - location
+    - match
+        - url - to which it actually matched
+        - path - the whole path
+        - params - url parmameters
+
+3 ways to navigate using react-router-dom
+    1. Link
+        <Link to='/topics'>Topic</Link>
+    2. history props
+        <button onClick={()=>props.history.push('/topics')}>Topics</button>
+    3. location
+        - location.pathname - gives you the exact pathlocation; full url
+        - allows us to build a nested route structure using match
+
+
+withRouter()
+    - we get access to the history and other props only to one level of children
+    - withRouter is HOC - it is a function that takes a component as a argument and returns a modified component
+
+
+
+

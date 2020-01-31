@@ -1,0 +1,25 @@
+REDUX
+
+3 principles
+    1. Single source of truth
+    2. State is read only - immutability
+    3. Changes using pure functions
+
+Action -> Rooot Reducer -> Store -> DOM Changes
+    - In redux we make sure that all the actions flows through one reducer function;
+    - As reducer function is a pure function, it returns the same state based on the action and updates the store
+    - FLUX pattern
+        Action -> Dispatcher -> Store -> View
+        unidirectional data flow
+    - MVC pattern
+        Action -> Controller -> Model -> View
+                             -> Model -> View
+
+    The reducer alwalys return a new state object; because, only then React re-renders the component
+    Middlewares are functions that receives the action objects before it reaches the reducer
+
+    connect is a HOC that modifies our component to have access to redux
+
+
+
+
